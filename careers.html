@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibs open source</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="overlay"></div>
+    <nav id="navbar">
+        <div class="nav-logo">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-bars"></i></button>
+            <span class="logo-nav"><a class="nav-link" href="/" id="logo"><img src="images/logo.png" id="logoImg" alt="Chibs Open Source"></a></span>
+        </div>
+        <div class="nav-links" id="links">
+            <br class="with-open-close">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-times"></i></button>
+            <br class="with-open-close">
+            <a href="/" class="nav-link" style="--i: 1">Home</a>
+            <a href="about.html" class="nav-link" style="--i: 2">About</a>
+            <a href="projects.html" class="nav-link" style="--i: 3">Projects</a>
+            <a href="employees.html" class="nav-link" style="--i: 4">Employees</a>
+            <a href="copyright.html" class="nav-link" style="--i: 5">Copyright</a>
+            <a href="careers.html" class="nav-link active" style="--i: 6">Careers</a>
+        </div>
+    </nav>
+    <main>
+        <div class="join text-center">
+            <h2>JOIN CHIBS OPEN SOURCE!</h2>
+            <p>We are always open to new employees to help better our company and bring it forward. We are able to hire ANYONE who has a decent understanding and skills for JavaScript! If you wish to join our team, please fill out the form below and we WILL get back to you!</p>
+        </div>
+        <div class="join-form text-center">
+            <form onsubmit="alert('Thank you for your application. We will get back to you with more questions.')">
+                <fieldset>
+                    <legend>Chibs Inc. Application Form</legend>
+                    <div class="form-element">
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Name" id="name" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Email" id="email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="number">Phone number:</label>
+                        <input type="tel" placeholder="Phone number" id="number" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="other">Other messages (optional):</label>
+                        <textarea name="other" id="other" cols="30" rows="5"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer class='text-center'>
+        <h2>Chibs Open Source</h2>
+        <p><a href="https://chibs.cyclic.app" class='footer-link'>Chibs Inc. Website</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

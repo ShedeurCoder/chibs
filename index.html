@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibs open source</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="overlay"></div>
+    <nav id="navbar">
+        <div class="nav-logo">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-bars"></i></button>
+            <span class="logo-nav"><a class="nav-link" href="/" id="logo"><img src="images/logo.png" id="logoImg" alt="Chibs Open Source"></a></span>
+        </div>
+        <div class="nav-links" id="links">
+            <br class="with-open-close">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-times"></i></button>
+            <br class="with-open-close">
+            <a href="/" class="nav-link active" style="--i: 1">Home</a>
+            <a href="about.html" class="nav-link" style="--i: 2">About</a>
+            <a href="projects.html" class="nav-link" style="--i: 3">Projects</a>
+            <a href="employees.html" class="nav-link" style="--i: 4">Employees</a>
+            <a href="copyright.html" class="nav-link" style="--i: 5">Copyright</a>
+            <a href="careers.html" class="nav-link" style="--i: 6">Careers</a>
+        </div>
+    </nav>
+    <main>
+        <div class="welcome">
+            <h1>Chibs Open Source</h1>
+            <p>Welcome to Chibs Open Source. Where we believe in an open source world.</p>
+            <a href="projects.html">View projects <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div class="open-source text-center">
+            <h1>Chibs encourages open source</h1>
+            <p>With open source, we can collaborate, share ideas, and work as a community. Together we are strong, and the more people on board, the better the projects can be.</p>
+        </div>
+        <div class="trusted text-right">
+            <h1>Trusted by companies around the world</h1>
+            <p>Used and trusted by companies to help build their own projects and to help improve the world.</p>
+        </div>
+    </main>
+    <footer class='text-center'>
+        <h2>Chibs Open Source</h2>
+        <p><a href="https://chibs.cyclic.app" class='footer-link'>Chibs Inc. Website</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

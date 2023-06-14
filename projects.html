@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibs open source</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="overlay"></div>
+    <nav id="navbar">
+        <div class="nav-logo">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-bars"></i></button>
+            <span class="logo-nav"><a class="nav-link" href="/" id="logo"><img src="images/logo.png" id="logoImg" alt="Chibs Open Source"></a></span>
+        </div>
+        <div class="nav-links" id="links">
+            <br class="with-open-close">
+            <button class="open-nav" onclick="toggleNav()" id="open-close"><i class="fas fa-times"></i></button>
+            <br class="with-open-close">
+            <a href="/" class="nav-link" style="--i: 1">Home</a>
+            <a href="about.html" class="nav-link" style="--i: 2">About</a>
+            <a href="projects.html" class="nav-link active" style="--i: 3">Projects</a>
+            <a href="employees.html" class="nav-link" style="--i: 4">Employees</a>
+            <a href="copyright.html" class="nav-link" style="--i: 5">Copyright</a>
+            <a href="careers.html" class="nav-link" style="--i: 6">Careers</a>
+        </div>
+    </nav>
+    <main>
+        <div class="projects-lists">
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/images/chibchat.png" alt="ChibChat">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">ChibChat</h2>
+                    <p class="project-desc">The ultimate chat app made with React.js and Firebase.
+                    <b class="project-license">License: MIT License</b></p>
+                    <a href="https://github.com/ShedeurCoder/chibchat" class="project-link">Go to project  <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/images/thechatterbox.png" alt="TheChatterbox">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">The Chatterbox</h2>
+                    <p class="project-desc">The greatest social media app made with Express.js and MongoDB.
+                    <b class="project-license">License: MIT License</b></p>
+                    <a href="https://github.com/OfficialTheChatterbox/source" class="project-link">Go to project  <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/images/chiblink.png" alt="ChibLink">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">ChibLink</h2>
+                    <p class="project-desc">Amazing link lister made with Express.js and MongoDB.
+                    <b class="project-license">License: MIT License</b></p>
+                    <a href="https://github.com/ShedeurCoder/chiblink" class="project-link">Go to project  <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/images/flagbot.png" alt="Flag Quiz Bot">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">Flag Quiz Bot</h2>
+                    <p class="project-desc">A Discord bot to test out your flag knowledge and keep track of your high scores. Made with Discord.js and MongoDB
+                    <b class="project-license">License: MIT License</b></p>
+                    <a href="https://github.com/ShedeurCoder/flagbot" class="project-link">Go to project  <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/images/artfart.png" alt="ArtFart">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">ArtFart</h2>
+                    <p class="project-desc">Art drawing program to express your creativity. Made with JavaScript and HTML Canvas.
+                    <b class="project-license">License: None</b></p>
+                    <a href="https://github.com/ShedeurCoder/artfart" class="project-link">Go to project  <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="images/romulus.png" alt="Romulus">
+                </div>
+                <div class="project-footer">
+                    <h2 class="project-title">Romulus</h2>
+                    <p class="project-desc">Breathtaking Discord bot filled with fun commands. Created with Discord.py.
+                    <b class="project-license">License: MIT License</b></p>
+                    <a href="https://github.com/ShedeurCoder/romulus-source" class="project-link">Go to project <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class='text-center'>
+        <h2>Chibs Open Source</h2>
+        <p><a href="https://github.com/ChibsInc" class='footer-link'>Our Github.</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
